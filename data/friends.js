@@ -1,0 +1,165 @@
+var friends = [
+  {
+      "name":"Kyrie",
+      "photo":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F677535789279027200%2FxoAivvwN_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Fkyrieirving&docid=GGq_I1DhrCZajM&tbnid=PQ1EZa8p9zkgeM%3A&vet=10ahUKEwiQk7K5zqXVAhVIFj4KHUxaBTAQMwhIKAcwBw..i&w=400&h=400&bih=770&biw=1600&q=kyrie&ved=0ahUKEwiQk7K5zqXVAhVIFj4KHUxaBTAQMwhIKAcwBw&iact=mrc&uact=8",
+      "scores":[
+         5,
+         1,
+         4,
+         4,
+         5,
+         1,
+         2,
+         5,
+         4,
+         1
+          ]
+      },
+  {
+  "name":"Lebron",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.slate.com%2Fcontent%2Fdam%2Fslate%2Fblogs%2Fring_don_t_lie%2F2017%2F06%2F03%2Flet_s_watch_some_mystifyingly_bad_lebron_plays%2F2017-NBA-Finals--Game-One.jpeg.CROP.promo-xlarge2.jpeg&imgrefurl=http%3A%2F%2Fwww.slate.com%2Fblogs%2Fring_don_t_lie%2F2017%2F06%2F03%2Flet_s_watch_some_mystifyingly_bad_lebron_plays.html&docid=XTvpG0WXHXbtwM&tbnid=_cckED2vI6PG2M%3A&vet=10ahUKEwi0qKPJzqXVAhUIez4KHaiYDbIQMwhJKAswCw..i&w=1180&h=841&bih=770&biw=1600&q=lebron&ved=0ahUKEwi0qKPJzqXVAhUIez4KHaiYDbIQMwhJKAswCw&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Kevin",
+  "photo":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3.amazonaws.com%2Ftpt-uploads-production%2Fuploads%2Fkevin-fb.jpg&imgrefurl=https%3A%2F%2Fwww.theplayerstribune.com%2Fkevin-love-cavaliers-unfinished-business%2F&docid=55jHSF-KF0ZpHM&tbnid=8vJHH3chR-aEKM%3A&vet=10ahUKEwji2tbhzqXVAhVGwj4KHW5fCowQMwhOKBIwEg..i&w=1528&h=800&bih=770&biw=1600&q=kevin%20love&ved=0ahUKEwji2tbhzqXVAhVGwj4KHW5fCowQMwhOKBIwEg&iact=mrc&uact=8",
+  "scores":[
+     9,
+     1,
+     4,
+     4,
+     5,
+     1,
+     2,
+     5,
+     4,
+     1
+      ]
+},
+{
+  "name":"Tristan",
+  "photo":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F22%2F00%2F4c%2F22004c4adf697de3efe71368aa0c2960--cavs-basketball-tristan-thompson.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fexplore%2Ftristan-thompson%2F&docid=MpB2lU5QYoVp0M&tbnid=OJH83452etox4M%3A&vet=10ahUKEwiZy9b0zqXVAhXCeT4KHRBYAVMQMwhAKAQwBA..i&w=736&h=724&bih=770&biw=1600&q=tristan%20thompson&ved=0ahUKEwiZy9b0zqXVAhXCeT4KHRBYAVMQMwhAKAQwBA&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"J.R",
+  "photo":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.gannett-cdn.com%2F-mm-%2F5b9feae1f61bbeced9306f40d814a54e9b5acc7a%2Fc%3D0-0-1078-1437%26r%3D537%26c%3D0-0-534-712%2Flocal%2F-%2Fmedia%2F2016%2F06%2F20%2FNJGroup%2FAsburyPark%2F636020213181338270-J.R.-Smith-Finals.jpg&imgrefurl=http%3A%2F%2Fwww.app.com%2Fstory%2Fsports%2Fnba%2F2016%2F06%2F20%2Fjr-smith-nba-finals-cleveland-cavaliers%2F86138000%2F&docid=a3y9rcko9dfrLM&tbnid=JARhTe82K7aAyM%3A&vet=10ahUKEwiYy9iGz6XVAhUCHT4KHSCMB4gQMwhHKAswCw..i&w=534&h=712&bih=770&biw=1600&q=jr%20smith&ved=0ahUKEwiYy9iGz6XVAhUCHT4KHSCMB4gQMwhHKAswCw&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Derrick",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fsporting_news%2F35%2Fbf%2Flebron-james-derrick-rose-cavs-jersey-ftr-072017jpg_bu6irxe06wkg1pi1u77vfkr4m.jpg%3Ft%3D1631286517&imgrefurl=http%3A%2F%2Fwww.sportingnews.com%2Fnba%2Fnews%2Fnba-free-agency-rumors-derrick-rose-news-cavs-contract-lebron-james-kyrie-irving%2Fv8tldt2lt4aa1pa94zpfq8w1a&docid=p4zcqhbMNQdZ7M&tbnid=15mh1dDjG6-8AM%3A&vet=10ahUKEwjer_eez6XVAhWIFT4KHa0RA9IQMwg_KAMwAw..i&w=1920&h=1080&itg=1&bih=770&biw=1600&q=derrick%20rose&ved=0ahUKEwjer_eez6XVAhWIFT4KHa0RA9IQMwg_KAMwAw&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Iman",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fimages.performgroup.com%2Fdi%2Flibrary%2Fsporting_news%2F35%2Fbf%2Flebron-james-derrick-rose-cavs-jersey-ftr-072017jpg_bu6irxe06wkg1pi1u77vfkr4m.jpg%3Ft%3D1631286517&imgrefurl=http%3A%2F%2Fwww.sportingnews.com%2Fnba%2Fnews%2Fnba-free-agency-rumors-derrick-rose-news-cavs-contract-lebron-james-kyrie-irving%2Fv8tldt2lt4aa1pa94zpfq8w1a&docid=p4zcqhbMNQdZ7M&tbnid=15mh1dDjG6-8AM%3A&vet=10ahUKEwjer_eez6XVAhWIFT4KHa0RA9IQMwg_KAMwAw..i&w=1920&h=1080&itg=1&bih=770&biw=1600&q=derrick%20rose&ved=0ahUKEwjer_eez6XVAhWIFT4KHa0RA9IQMwg_KAMwAw&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Moon Dog",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fi.cdn.turner.com%2Fdrp%2Fnba%2Fcavaliers%2Fsites%2Fdefault%2Ffiles%2Fmoondog-141014-758.jpg&imgrefurl=http%3A%2F%2Fwww.nba.com%2Fcavaliers%2Farchive%2FMoondog&docid=b7_R0-_NCFJY8M&tbnid=BvplSpJ6DGn8oM%3A&vet=10ahUKEwjmzOTFz6XVAhUKWD4KHdbsDUUQMwhFKAIwAg..i&w=758&h=442&bih=770&biw=1600&q=moon%20dog%20mascot&ved=0ahUKEwjmzOTFz6XVAhUKWD4KHdbsDUUQMwhFKAIwAg&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Channing",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fimg.bleacherreport.net%2Fimg%2Fimages%2Fphotos%2F003%2F580%2F663%2Fhi-res-ea1ac081d77396afa08b9d6f175b8503_crop_north.jpg%3Fh%3D533%26w%3D800%26q%3D70%26crop_x%3Dcenter%26crop_y%3Dtop&imgrefurl=http%3A%2F%2Fbleacherreport.com%2Farticles%2F2622843-cleveland-cavaliers-must-come-to-their-senses-and-deploy-channing-frye&docid=jBnLnhC3UZoHqM&tbnid=D3AbqPiwJqHLyM%3A&vet=10ahUKEwj7l-bXz6XVAhVIVT4KHVUiBaQQMwg9KAEwAQ..i&w=800&h=533&bih=770&biw=1600&q=channing%20frye&ved=0ahUKEwj7l-bXz6XVAhVIVT4KHVUiBaQQMwg9KAEwAQ&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+},
+{
+  "name":"Richard",
+  "photo":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fa.espncdn.com%2Fphoto%2F2016%2F0619%2Fr94513_600x400_3-2.jpg&imgrefurl=http%3A%2F%2Fwww.espn.com%2Fnba%2Fplayer%2F_%2Fid%2F1006%2Frichard-jefferson&docid=qFPKbj44w7OetM&tbnid=vrZiptglVAlRPM%3A&vet=10ahUKEwihgoXoz6XVAhULcT4KHezZADIQMwg-KAIwAg..i&w=600&h=400&bih=770&biw=1600&q=richard%20jefferson&ved=0ahUKEwihgoXoz6XVAhULcT4KHezZADIQMwg-KAIwAg&iact=mrc&uact=8",
+  "scores":[
+     5,
+     1,
+     4,
+     3,
+     2,
+     6,
+     9,
+     8,
+     9,
+     9
+      ]
+}
+]
+
+
+module.exports = friends;
